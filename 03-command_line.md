@@ -9,7 +9,18 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `head <filename>` displays first ten lines of filename 
+> > `cd` navigate to parent directory i.e. `cd desktop`
+> > `cat <filename>` open the contents of filename 
+> > `whois <domain>` output whois information for domain 
+> > `curl` used to download files from a url - like the pull we did in the application
+> > `clear` clear the command line window 
+> > `touch <filename>` update file access and mod time 
+> > `top` output information on processes that are currently running 
+> > `kill <process ID>` quit processes with process ID 
+> > `find <dir> -name "<filename>` find files named filename in directory named dir 
+
+
 
 ---
 
