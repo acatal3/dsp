@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use Vim, as it is encouraged that we have at least some familiarity with it.
 
 --
 
@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use Atom. It was recommended in a tutorial I did a while back. Extensive autocompletion and drag and drop are a couple of Atom's interesting features. Useful shortcuts are fn + (arrow keys) to rapidly navigate through a file, and command - up arrow - p to open the command palette. The editor is highly customizable - atom has a "hackable core" where you can manually change features. 
 
  
