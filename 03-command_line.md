@@ -24,7 +24,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`  list directory contents 
+`ls -a`  list files in directory 
+`ls -l`  long format instead of bare format
+`ls -lh`  long format, human readable 
+`ls -lah`  long format, human readable, all files 
+`ls -t`  files listed in order of last modified 
+`ls -Glp`  no group, long format, with file type
 
 ---
 
@@ -32,7 +38,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls -i`
+> > `ls -o`
+> > `ls -u`
+> > `ls -r`
+> > `ls -c`
 
 ---
 
@@ -40,7 +50,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Creates command lines from standard input and executes them. xargs can be used to take the output from one command and use it as the argument for a separate command. xargs can break up a command that exceeds maximum size. 
 
  
 
