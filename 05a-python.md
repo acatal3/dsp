@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> Pyhton lists and tuples are similar in that they both contain a sequence of items (integers, string values, etc.) The main difference between lists and tuples is that lists are mutable and tuples are not. Because of this difference, tuples function as keys in a dictionary. 
+>> Pyhton lists and tuples are similar in that they both contain a sequence of data (integers, string values, variables etc.) The main difference between lists and tuples is that lists are mutable and tuples are not. Because of this difference, tuples function as keys in a dictionary. 
 
 ---
 
@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 
 
 ---
 
