@@ -28,9 +28,10 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> lambda is a function that occurs in a single line (as opposed to being repeated or called later like a normal function)  I have only seen it used in the case of filtering. In this example, numbers in l1 that are divisible by three are printed: 
+>> lambda is a function that occurs in a single line (as opposed to being repeated or called later like a normal function)  I have frequently seen it used in filtering. In this example, numbers in l1 that are divisible by three are printed: 
 `l1 = range(10)
 print filter(lambda x: x%3==0, l1)`
+
 
 ---
 
@@ -38,7 +39,9 @@ print filter(lambda x: x%3==0, l1)`
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> A list comprehension typically builds a list concisely (one line) even though it may have loops and if statements. Map and filter can also be avoided by using list comprehensions. From the example above:  
+`filter(lambda x: x%3==0, l1)`  `[x for x in l1 if x%3==0]`
+
 
 ---
 
