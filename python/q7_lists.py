@@ -2,7 +2,11 @@
 # Licensed under the Apache License, Version 2.0
 
 def match_ends(words):
-    return len(list(filter(lambda w: (len(w)>1 and w[0]==w[len(w)-1]), words)))
+    count = 0 
+    for x in words:
+        if len(x) >1 and x[0] = x[-1]:
+            count += 1 
+    return count
     
 
 def front_x(words):
