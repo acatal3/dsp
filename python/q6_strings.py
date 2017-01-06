@@ -97,6 +97,15 @@ def mix_up(a, b):
 
 
 def verbing(s):
+    if len(s)<3:
+        	return s
+    elif s[len(s)-3:]=='ing':
+       		return s+'ly'
+  	else:
+        	return s+'ing'
+    
+    
+    
     """
     Given a string, if its length is at least 3, add 'ing' to its end.
     Unless it already ends in 'ing', in which case add 'ly' instead.
@@ -114,6 +123,14 @@ def verbing(s):
 
 
 def not_bad(s):
+    b=s.find('bad')
+   	n=s.find('not')
+   	if b<n:
+      	return s
+    else:
+        return s[:n]+'good'+s[b+3:]
+    
+    
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
@@ -134,6 +151,14 @@ def not_bad(s):
 
 
 def front_back(a, b):
+    a_front=a[:len(a)//2+len(a)%2]
+   	a_back=a[len(a)//2+len(a)%2:]
+   	b_front=b[:len(b)//2+len(b)%2]
+   	b_back=b[len(b)//2+len(b)%2:]
+  	return a_front+b_front+a_back+b_back
+    
+    
+    
     """
     Consider dividing a string into two halves. If the length is even,
     the front and back halves are the same length. If the length is
