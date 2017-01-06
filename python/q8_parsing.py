@@ -1,12 +1,15 @@
-f=open("football.csv","r")
-xs=f.readlines()
-f.close()
-d=0
-index=0
-for i in range(1,len(xs)):
-    if d>(int(xs[i].split(',')[5])-int(xs[i].split(',')[6])):
-        d=int(xs[i].split(',')[5])-int(xs[i].split(',')[6])
-        index=i
-return xs[index].split(',')[0]
+import math
+import csv
+f1 = 'football.csv'
+difference = []
+
+with open(f1, 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        gf = int(row['Goals'])
+        ga = int(row['Goals Allowed'])
+        difference.append((row['Team'], math.fabs(gf-ga)))
+
+print(sorted(difference, key=lambda x: x[1])[0][0])
   
       
