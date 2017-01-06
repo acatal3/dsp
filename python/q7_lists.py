@@ -10,20 +10,17 @@ def match_ends(words):
     
 
 def front_x(words):
-    def compare(a,b):
-        if a[0]=='x' and b[0]!='x':
-            return -1
-        if a[0]!='x' and b[0]=='x':
-            return 1
+    xwerds=[]
+    werds=[]
+    for word in words:
+        if word[0] == 'x':
+            xwerds.append(word)
         else:
-            if a<b:
-                return -1
-            elif b<a:
-                return 1
-            else:
-                return 0
-    words.sort(cmp=compare)
-    return words
+            werds.append(word)
+    xwerds.sort()
+    werds.sort()
+    return xwerds + werds
+print front_x(['xyz','xaba', 'baba','abba','dank','xray'])
 
 
 
