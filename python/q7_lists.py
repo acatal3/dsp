@@ -24,9 +24,7 @@ def front_x(words):
 
 
 def sort_last(tuples):
-    def last(x):
-        return x[len(x)-1]
-    return tuples.sort(key=last)
+    return sorted(tuples, key=lambda x: x[-1])
        
 #empty    
 
@@ -35,14 +33,5 @@ def remove_adjacent(nums):
 
 
 def linear_merge(list1, list2):
-    l=[]
-    while len(list1)>0 and len(list2)>0:
-        if list1[0]<list2[0]:
-            l.append(list1.pop(0))
-        else:
-            l.append(list2.pop(0))
-
-    l.extend(list1)
-    l.extend(list2)
-    return l
+    return sorted(list1 + list2)
    
