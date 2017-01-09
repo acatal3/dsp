@@ -88,7 +88,7 @@ P(Identical|Male)=(1/300 * 1)/(1 * 1/300 + 1/2 * 1/125) = 5/11 = .45
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics rely on long-term frequencies or assume that the statistics of an event belong to a larger population of the same event. Bayesian statistics are more iteratively updated. Conditions or previously observed events are built into Bayesian models more often than would be in frequentist statistics.  
 
 ---
 
